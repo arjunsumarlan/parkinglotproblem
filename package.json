@@ -1,0 +1,18 @@
+{
+  "name": "parkinglotproblem",
+  "version": "1.0.0",
+  "description": "This is Solution of Take Home Test from DKatalis Company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code",
+    "test"
+  ],
+  "author": "Arjun Sumarlan",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
