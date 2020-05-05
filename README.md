@@ -29,7 +29,7 @@ $ node . create_parking_lot 6
 Created parking lot with 6 slots
 ```
 
-## Park a Car:
+### Park a Car:
 Make sure you already in project directory, then run this command
 ```bash
 $ node . park {car_number}
@@ -45,7 +45,7 @@ $ node . park KA-01-HH-1234
 Allocated slot number: 1
 ```
 
-## Remove (Unpark) a Car:
+### Remove (Unpark) a Car:
 Make sure you already in project directory, then run this command
 ```bash
 $ node . leave {car_number} {hours}
@@ -61,7 +61,7 @@ $ node . leave KA-01-HH-1234 3
 Registration number KA-01-HH-1234 with Slot Number 1 is free with Charge 20
 ```
 
-## Print Status of Parking Slot:
+### Print Status of Parking Slot:
 Make sure you already in project directory, then run this command
 ```bash
 $ node . status
@@ -73,3 +73,9 @@ $ node . status
 **result**
 
 ![screenshot](https://github.com/arjunsumarlan/parkinglotproblem/blob/master/status.png?raw=true)
+
+## Testing
+Make sure you already in project directory, then run this command
+```bash
+$ npm run test
+```
